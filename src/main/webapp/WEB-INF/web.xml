@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>CreateServlet</servlet-name>
+  	<display-name>CreateServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.petrusenko.task1.controllers.CreateServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CreateTest</servlet-name>
+  	<display-name>CreateTest</display-name>
+  	<description></description>
+  	<servlet-class>com.petrusenko.task1.controllers.CreateTest</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CompleteServlet</servlet-name>
+  	<display-name>CompleteServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.petrusenko.task1.controllers.CompleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ProcessServlet</servlet-name>
+  	<display-name>ProcessServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.petrusenko.task1.controllers.ProcessServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<display-name>LogoutServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.petrusenko.task1.controllers.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegServlet</servlet-name>
+  	<display-name>RegServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.petrusenko.task1.controllers.RegServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.petrusenko.task1.controllers.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AjaxServlet</servlet-name>
+  	<display-name>AjaxServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.petrusenko.task1.controllers.AjaxServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>CreateServlet</servlet-name>
+  	<url-pattern>/CreateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CreateTest</servlet-name>
+  	<url-pattern>/CreateTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CompleteServlet</servlet-name>
+  	<url-pattern>/CompleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProcessServlet</servlet-name>
+  	<url-pattern>/ProcessServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogoutServlet</servlet-name>
+  	<url-pattern>/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegServlet</servlet-name>
+  	<url-pattern>/RegServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AjaxServlet</servlet-name>
+  	<url-pattern>/AjaxServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
